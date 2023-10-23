@@ -1,0 +1,19 @@
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class MyFirstTestCase {
+	
+	WebDriver driver =new ChromeDriver () ; 
+	
+	@BeforeTest
+	public void mySetup() {}
+	
+	
+	@Test()
+	public void MyFirstTest ( ) {}
+	
+	@AfterTest
+	public void MyPostTesting() {}
+
+}
